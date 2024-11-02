@@ -1,0 +1,115 @@
+/* Main Window */
+QDialog {
+    background-color: #6c5b7b;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+/* Group Boxes */
+QGroupBox {
+    border: 2px solid #444444;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #c06c84;
+    color: #f67280;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 5px 10px;
+    background-color: #f8b195;
+    border: 2px solid #444444;
+    border-radius: 5px;
+    color: #444444;
+    font-weight: bold;
+}
+
+/* Labels */
+QLabel {
+    font-size: 10pt;
+    color: #f8b195;
+}
+
+/* Line Edit (Text Fields) */
+QLineEdit, QTextEdit {
+    background-color: #444444;
+    color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QLineEdit[readOnly="true"] {
+    background-color: #3D3D3D;
+    color: #B0B0B0;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #ffa5b3;
+    color: #444444;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #f67280;
+}
+
+QPushButton:pressed {
+    background-color: #f8b195;
+}
+
+/* Table */
+QTableWidget {
+    background-color: #3D3D3D;
+    border: 1px solid #4E4E4E;
+    color: #FFFFFF;
+    gridline-color: #2E2E2E;
+}
+
+QHeaderView::section {
+    background-color: #4A4A4A;
+    color: #CCCCCC;
+    padding: 4px;
+    border: 1px solid #4E4E4E;
+    font-weight: bold;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+TableWidget::item:selected {
+    background-color: #f67280;
+    color: #FFFFFF;
+}
+
+/* Progress Bar */
+QProgressBar {
+    background-color: #3A3A3A;
+    border: 1px solid #444444;
+    text-align: center;
+    color: #FFFFFF;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.main_style QProgressBar::chunk {
+    background-color: #f67280;
+    width: 10px;
+}
+
+/* Chart Style */
+QChart {
+    background-color: #3A3A3A;
+}
+
+QChartView {
+    background-color: transparent;
+}

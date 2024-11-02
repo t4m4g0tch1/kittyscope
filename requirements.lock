@@ -20,3 +20,14 @@ polars==1.12.0
     # via kittyscope
 pypdf==5.1.0
     # via kittyscope
+pyside6==6.8.0.2
+    # via kittyscope
+pyside6-addons==6.8.0.2
+    # via pyside6
+pyside6-essentials==6.8.0.2
+    # via pyside6
+    # via pyside6-addons
+shiboken6==6.8.0.2
+    # via pyside6
+    # via pyside6-addons
+    # via pyside6-essentials

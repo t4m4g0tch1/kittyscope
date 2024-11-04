@@ -1,5 +1,9 @@
 # KittyScope 🐾
 
+<div style="text-align: center">
+    <img src="./src/kittyscope/assets/icons/app_icon.png" width="400px">
+</div>
+
 > **Your go-to tool for effortless filesystem analysis**  
 > Dive into your files and folders with style and efficiency! KittyScope helps you analyze your directory structures quickly and intuitively.
 
@@ -45,6 +49,6 @@ Once everything is installed, you can start using KittyScope with the following 
 python main.py
 ```
 
-## 🐾 Show Some Love!
+## 🐾 Show Some Love
 
 If you love KittyScope as much as we do, give it a ⭐ on GitHub or share it with others who might find it useful!

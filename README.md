@@ -1,6 +1,6 @@
 # KittyScope 🐾
 
-<div style="text-align: center">
+<div align=center>
     <img src="./src/kittyscope/assets/icons/app_icon.png" width=300>
 </div>
 

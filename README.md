@@ -1,7 +1,8 @@
 # KittyScope 🐾
 
-{: style="text-align: center"}
-    ![KittyScope Icon](./src/kittyscope/assets/icons/app_icon.png){: width="400px"}
+<div style="text-align: center">
+    <img src="./src/kittyscope/assets/icons/app_icon.png" width=300>
+</div>
 
 > **Your go-to tool for effortless filesystem analysis**  
 > Dive into your files and folders with style and efficiency! KittyScope helps you analyze your directory structures quickly and intuitively.
